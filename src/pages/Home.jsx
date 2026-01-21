@@ -17,6 +17,10 @@ import hero3 from "../assets/a.png";
 import coll1 from"../assets/coll1.jpg";
 import coll2 from"../assets/coll2.jpg";
 import { Link } from "react-router-dom";
+import user from "../assets/user.png";
+import vegan from "../assets/vegan.png";
+import hand from "../assets/hand.png";
+import paraben from "../assets/paraben.png";
 
 function Home() {
   const slides = [
@@ -76,7 +80,7 @@ function Home() {
         <div className="flex flex-col items-center text-center space-y-2 md:space-y-3">
     <div className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 border border-black rounded-full flex items-center justify-center p-1 md:p-2">
       <img 
-        src="https://img.icons8.com/badges/48/natural-food.png" 
+        src={vegan} 
         className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" 
         alt="Vegan"
       />
@@ -89,7 +93,7 @@ function Home() {
   <div className="flex flex-col items-center text-center space-y-2 md:space-y-3">
     <div className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 border border-black rounded-full flex items-center justify-center p-1 md:p-2">
       <img 
-        src="https://img.icons8.com/sf-regular/48/hand.png" 
+        src={hand}
         className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" 
         alt="Handmade"
       />
@@ -102,7 +106,7 @@ function Home() {
   <div className="flex flex-col items-center text-center space-y-2 md:space-y-3">
     <div className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 border border-black rounded-full flex items-center justify-center p-1 md:p-2">
       <img 
-        src="https://img.icons8.com/external-victoruler-outline-victoruler/64/external-paraben-free-beauty-cosmetics-victoruler-outline-victoruler.png" 
+        src={paraben} 
         className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" 
         alt="Paraben Free"
       />
@@ -403,7 +407,7 @@ function Home() {
               <img
                 width="50"
                 height="50"
-                src="https://img.icons8.com/ios-filled/50/user-female.png"
+                src={user}
                 alt="user"
                 className="mb-3 md:mb-4 w-10 h-10 md:w-12 md:h-12"
               />
@@ -422,7 +426,7 @@ function Home() {
               <img
                 width="50"
                 height="50"
-                src="https://img.icons8.com/ios-filled/50/user-female.png"
+                src={user}
                 alt="user"
                 className="mb-3 md:mb-4 w-10 h-10 md:w-12 md:h-12"
               />
@@ -441,7 +445,7 @@ function Home() {
               <img
                 width="50"
                 height="50"
-                src="https://img.icons8.com/ios-filled/50/user-female.png"
+                src={user}
                 alt="user"
                 className="mb-3 md:mb-4 w-10 h-10 md:w-12 md:h-12"
               />

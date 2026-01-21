@@ -2,6 +2,10 @@ import React from 'react';
 import about1 from "../assets/about2.jpg";
 import hero2 from "../assets/hero2.jpg";
 import { Link } from "react-router-dom";
+import skin from "../assets/skin.png";
+import lab from "../assets/lab.png";
+import derma from "../assets/derma.png";
+import vegan from "../assets/vegan.png";
 
 function About() {
   return (
@@ -57,7 +61,7 @@ function About() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 text-center">
           <div className="flex flex-col items-center">
             <div className="mb-6 text-[#1a1a1a]">
-              <img src="https://img.icons8.com/badges/48/natural-food.png" />
+              <img src={vegan} />
             </div>
             <h3 className="text-2xl font-serif text-[#1a1a1a] mb-3 leading-tight">100% Natural<br />product</h3>
             <p className="text-md text-gray-500 leading-relaxed max-w-50">
@@ -67,7 +71,7 @@ function About() {
 
           <div className="flex flex-col items-center">
             <div className="mb-6 text-[#1a1a1a]">
-              <img width="48" height="48" src="https://img.icons8.com/deco-glyph/48/test-partial-passed.png" alt="test-partial-passed" />
+              <img width="48" height="48" src={derma} alt="test-partial-passed" />
             </div>
             <h3 className="text-2xl font-serif text-[#1a1a1a] mb-3 leading-tight">Dermatologically<br />tested</h3>
             <p className="text-md text-gray-500 leading-relaxed max-w-50">
@@ -77,7 +81,7 @@ function About() {
 
           <div className="flex flex-col items-center">
             <div className="mb-6 text-[#1a1a1a]">
-              <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/lab-items.png" alt="lab-items" />
+              <img width="50" height="50" src={lab} alt="lab-items" />
             </div>
             <h3 className="text-2xl font-serif text-[#1a1a1a] mb-3 leading-tight">Laboratory<br />tested</h3>
             <p className="text-md text-gray-500 leading-relaxed max-w-50">
@@ -87,7 +91,7 @@ function About() {
 
           <div className="flex flex-col items-center">
             <div className="mb-10 text-[#1a1a1a]">
-              <img width="60" height="60" src="https://img.icons8.com/ios-glyphs/60/dermatology.png" alt="dermatology" />
+              <img width="60" height="60" src={skin} alt="dermatology" />
             </div>
             <h3 className="text-2xl font-serif text-[#1a1a1a] mb-3 -mt-7 leading-tight">Gentle clean<br />skin</h3>
             <p className="text-md text-gray-500 leading-relaxed max-w-50">

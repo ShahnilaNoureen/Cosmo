@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import icon1 from "../assets/icon1.png";
 
 const Footer = () => {
   return (
@@ -14,10 +15,10 @@ const Footer = () => {
 
           <div className="flex justify-center items-center gap-6 opacity-70">
             <img
+              src={icon1}
+              alt="Visa"
               width="48"
               height="48"
-              src="https://img.icons8.com/color/48/visa.png"
-              alt="visa"
             />
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg"
